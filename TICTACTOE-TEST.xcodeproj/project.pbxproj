@@ -11,6 +11,9 @@
 		52AD75AE257FD568001AC9A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75AD257FD568001AC9A8 /* ContentView.swift */; };
 		52AD75B0257FD56E001AC9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AD75AF257FD56E001AC9A8 /* Assets.xcassets */; };
 		52AD75B3257FD56E001AC9A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AD75B2257FD56E001AC9A8 /* Preview Assets.xcassets */; };
+		52AD75BC257FD583001AC9A8 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75BB257FD583001AC9A8 /* GameModel.swift */; };
+		52AD75BF257FD5B4001AC9A8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75BE257FD5B4001AC9A8 /* Utils.swift */; };
+		52AD75C2257FD5F9001AC9A8 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75C1257FD5F9001AC9A8 /* AI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		52AD75AF257FD56E001AC9A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AD75B2257FD56E001AC9A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52AD75B4257FD56E001AC9A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AD75BB257FD583001AC9A8 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		52AD75BE257FD5B4001AC9A8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		52AD75C1257FD5F9001AC9A8 /* AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				52AD75AB257FD568001AC9A8 /* TICTACTOE_TESTApp.swift */,
 				52AD75AD257FD568001AC9A8 /* ContentView.swift */,
+				52AD75BB257FD583001AC9A8 /* GameModel.swift */,
+				52AD75BE257FD5B4001AC9A8 /* Utils.swift */,
+				52AD75C1257FD5F9001AC9A8 /* AI.swift */,
 				52AD75AF257FD56E001AC9A8 /* Assets.xcassets */,
 				52AD75B4257FD56E001AC9A8 /* Info.plist */,
 				52AD75B1257FD56E001AC9A8 /* Preview Content */,
@@ -140,6 +149,9 @@
 			files = (
 				52AD75AE257FD568001AC9A8 /* ContentView.swift in Sources */,
 				52AD75AC257FD568001AC9A8 /* TICTACTOE_TESTApp.swift in Sources */,
+				52AD75BC257FD583001AC9A8 /* GameModel.swift in Sources */,
+				52AD75C2257FD5F9001AC9A8 /* AI.swift in Sources */,
+				52AD75BF257FD5B4001AC9A8 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +281,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TICTACTOE-TEST/Preview Content\"";
-				DEVELOPMENT_TEAM = QARY953TUQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TICTACTOE-TEST/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,7 +289,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benrobinson.TICTACTOE-TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TICTACTOE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TICTACTOE-TEST/Preview Content\"";
-				DEVELOPMENT_TEAM = QARY953TUQ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TICTACTOE-TEST/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.benrobinson.TICTACTOE-TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TICTACTOE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -11,6 +11,15 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .onAppear(perform: testMinimax)
+    }
+
+    func testMinimax() {
+        let board: [[Selection]] = [[.x, .none, .none],
+                                    [.none, .none, .none],
+                                    [.none, .o, .x]]
+        let ai = AI()
+        print(ai.minimax(board))
     }
 }
 
