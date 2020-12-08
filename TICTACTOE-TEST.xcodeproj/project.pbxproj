@@ -14,6 +14,8 @@
 		52AD75BC257FD583001AC9A8 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75BB257FD583001AC9A8 /* GameModel.swift */; };
 		52AD75BF257FD5B4001AC9A8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75BE257FD5B4001AC9A8 /* Utils.swift */; };
 		52AD75C2257FD5F9001AC9A8 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75C1257FD5F9001AC9A8 /* AI.swift */; };
+		52AD75C9257FDB58001AC9A8 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75C8257FDB58001AC9A8 /* BoxView.swift */; };
+		52AD75CE257FDB73001AC9A8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AD75CD257FDB73001AC9A8 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		52AD75BB257FD583001AC9A8 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		52AD75BE257FD5B4001AC9A8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		52AD75C1257FD5F9001AC9A8 /* AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
+		52AD75C8257FDB58001AC9A8 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		52AD75CD257FDB73001AC9A8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				52AD75AB257FD568001AC9A8 /* TICTACTOE_TESTApp.swift */,
-				52AD75AD257FD568001AC9A8 /* ContentView.swift */,
-				52AD75BB257FD583001AC9A8 /* GameModel.swift */,
-				52AD75BE257FD5B4001AC9A8 /* Utils.swift */,
-				52AD75C1257FD5F9001AC9A8 /* AI.swift */,
+				52AD75C7257FDB4D001AC9A8 /* Views */,
+				52AD75C6257FDB44001AC9A8 /* Model */,
 				52AD75AF257FD56E001AC9A8 /* Assets.xcassets */,
 				52AD75B4257FD56E001AC9A8 /* Info.plist */,
 				52AD75B1257FD56E001AC9A8 /* Preview Content */,
@@ -76,6 +78,26 @@
 				52AD75B2257FD56E001AC9A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52AD75C6257FDB44001AC9A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52AD75BB257FD583001AC9A8 /* GameModel.swift */,
+				52AD75BE257FD5B4001AC9A8 /* Utils.swift */,
+				52AD75C1257FD5F9001AC9A8 /* AI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52AD75C7257FDB4D001AC9A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52AD75AD257FD568001AC9A8 /* ContentView.swift */,
+				52AD75C8257FDB58001AC9A8 /* BoxView.swift */,
+				52AD75CD257FDB73001AC9A8 /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +171,11 @@
 			files = (
 				52AD75AE257FD568001AC9A8 /* ContentView.swift in Sources */,
 				52AD75AC257FD568001AC9A8 /* TICTACTOE_TESTApp.swift in Sources */,
+				52AD75C9257FDB58001AC9A8 /* BoxView.swift in Sources */,
 				52AD75BC257FD583001AC9A8 /* GameModel.swift in Sources */,
 				52AD75C2257FD5F9001AC9A8 /* AI.swift in Sources */,
 				52AD75BF257FD5B4001AC9A8 /* Utils.swift in Sources */,
+				52AD75CE257FDB73001AC9A8 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
